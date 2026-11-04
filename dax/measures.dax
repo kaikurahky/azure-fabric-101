@@ -1,0 +1,9 @@
+Total Sales = SUM(sales[sales_amount])
+
+Total Orders = DISTINCTCOUNT(sales[order_id])
+
+Total Quantity = SUM(sales[quantity])
+
+Average Order Value = DIVIDE([Total Sales], [Total Orders])
+
+Calculated Sales = SUMX(sales, sales[quantity] * sales[unit_price])

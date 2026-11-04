@@ -1,0 +1,3 @@
+order_id,order_date,order_month,region,product,quantity,unit_price,sales_amount
+1013,2026-04-05,2026-04,East,Coffee,2,500,1000
+1014,2026-04-12,2026-04,West,Tea,5,300,1500
